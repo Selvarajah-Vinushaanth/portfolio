@@ -1,0 +1,193 @@
+/* Reset some default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Header Styling */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1px 60px;
+  background: linear-gradient(to right, #141E30, #243B55);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-out;
+}
+
+.logo h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-left: 0px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo h1:hover {
+  transform: scale(1.1);
+}
+.nav-links {
+  list-style: none; /* Removes bullet points */
+}
+
+/* Navigation Links Styling */
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links .nav-link {
+  font-size: 1.1rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: capitalize;
+  position: relative;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-links .nav-link:hover {
+  color: #f0a500;
+  transform: scale(1.05);
+}
+
+.nav-links .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #f0a500;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.nav-links .nav-link:hover::after {
+  text-decoration: none;
+  opacity: 0;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Remove the hover effect from the hamburger menu */
+.hamburger:hover {
+  color: #fff; /* Keep the same color on hover */
+}
+.mobile-title{
+  display: none;
+}
+.desktop-title{
+  display: block;
+}
+/* Responsive Styling for Tablets */
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: linear-gradient(to right, #243B55, #141E30);
+    gap: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links .nav-link {
+    text-align: right;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  .mobile-title{
+    display: block;
+  }
+  .desktop-title{
+    display: none;
+  }
+}
+
+/* Additional Phone-Specific Styling */
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 10px 20px;
+  }
+
+  .logo h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+
+  .header {
+    height: 50px; /* Smallest header height for phones */
+  }
+
+  main {
+    margin-top: 50px; /* Match reduced header height */
+  }
+
+  .nav-links .nav-link {
+    font-size: 1rem;
+    padding: 5px 0;
+  }
+
+  .hamburger {
+    font-size: 24px;
+    position: absolute;
+    right: 10px; /* Align to right */
+    top: 10px;  /* Adjust positioning */
+  }
+
+  .nav-links {
+    top: 60px; /* Adjusted for smaller headers */
+    right: 10px;
+    padding: 10px 15px;
+  }
+
+  /* Hide desktop title on mobile */
+  .desktop-title {
+    display: none;
+  }
+
+  /* Show mobile title on mobile */
+  .mobile-title {
+    display: block;
+  }
+}
+
+/* Hover and animation effects */
+@keyframes slideIn {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

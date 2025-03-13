@@ -1,0 +1,125 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* Replace with your preferred font */
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 40px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', serif; /* A contrasting font for headings */
+    color: #141E30;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+  }
+  
+  h3 {
+    font-size: 1.75rem;
+  }
+  
+  h4 {
+    font-size: 1.5rem;
+  }
+  
+  /* Links */
+  a {
+    color: #f0a500;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #d18b00;
+  }
+  
+  /* Buttons */
+  button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #141E30;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover, .btn:hover {
+    background-color: #243B55;
+    transform: translateY(-2px);
+  }
+  
+  /* Utility Classes */
+  .text-center {
+    text-align: center;
+  }
+  
+  .mt-20 {
+    margin-top: 20px;
+  }
+  
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+  
+  .pt-20 {
+    padding-top: 20px;
+  }
+  
+  .pb-20 {
+    padding-bottom: 20px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 60px 20px;
+  }
+  
+  /* Responsive Typography */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    h3 {
+      font-size: 1.5rem;
+    }
+  
+    button, .btn {
+      font-size: 0.9rem;
+    }
+  }
+  

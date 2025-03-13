@@ -1,0 +1,69 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  margin: 10px 0;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-right: 10px;
+}
+
+/* Responsive styles for tablets */
+@media screen and (max-width: 768px) {
+  .App {
+    margin: 10px;
+    font-size: 14px;
+  }
+
+  input {
+    width: 70%;
+    margin-right: 5px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
+
+/* Responsive styles for phones */
+@media screen and (max-width: 480px) {
+  .App {
+    margin: 5px;
+    font-size: 12px;
+  }
+
+  input {
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    padding: 8px 12px;
+    width: 100%; /* Full width for better usability on small screens */
+  }
+
+  form {
+    display: flex;
+    flex-direction: column; /* Stack the form elements vertically */
+  }
+}
