@@ -67,6 +67,11 @@ const Projects = () => {
       title: "Neura AI Chat Build",
       description: "a chat interface for text, file, and image analysis with text generation, image recognition, and real-time responses. users can choose models, toggle themes, use voice input, and manage chats. prompt templates available.",
       link: "https://github.com/Selvarajah-Vinushaanth/Neura-AI"
+    },
+    {
+      title: "QuickPing",
+      description: " This app measures the internet connection speed (download and upload speeds) by sending data packets to a server and calculating the time it takes for the data to travel back and forth. It then displays the results, such as download speed, upload speed, and ping (latency). The app communicates with a remote server to perform the speed tests and send data back for calculation.",
+      link: "https://github.com/Selvarajah-Vinushaanth/QuickPing"
     }
     
     
