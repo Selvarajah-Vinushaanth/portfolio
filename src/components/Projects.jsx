@@ -59,6 +59,11 @@ const Projects = () => {
       link: "https://github.com/Selvarajah-Vinushaanth/Weather-with-api"
     },
     {
+      title: "Voicify",
+      description: "voicify converts text into natural-sounding speech using tts technology. it allows users to add effects, download audio, and analyze word and character counts, making it useful for accessibility, narration, and automation.",
+      link: "https://github.com/Selvarajah-Vinushaanth/Text-To-Voice-Converter"
+    },
+    {
       title: "Neura AI Chat Build",
       description: "a chat interface for text, file, and image analysis with text generation, image recognition, and real-time responses. users can choose models, toggle themes, use voice input, and manage chats. prompt templates available.",
       link: "https://github.com/Selvarajah-Vinushaanth/Neura-AI"
