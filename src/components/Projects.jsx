@@ -60,18 +60,23 @@ const Projects = () => {
     },
     {
       title: "Voicify",
-      description: "voicify converts text into natural-sounding speech using tts technology. it allows users to add effects, download audio, and analyze word and character counts, making it useful for accessibility, narration, and automation.",
+      description: "Voicify converts text into natural-sounding speech using tts technology. it allows users to add effects, download audio, and analyze word and character counts, making it useful for accessibility, narration, and automation.",
       link: "https://github.com/Selvarajah-Vinushaanth/Text-To-Voice-Converter"
     },
     {
       title: "Neura AI Chat Build",
-      description: "a chat interface for text, file, and image analysis with text generation, image recognition, and real-time responses. users can choose models, toggle themes, use voice input, and manage chats. prompt templates available.",
+      description: "A chat interface for text, file, and image analysis with text generation, image recognition, and real-time responses. users can choose models, toggle themes, use voice input, and manage chats. prompt templates available.",
       link: "https://github.com/Selvarajah-Vinushaanth/Neura-AI"
     },
     {
       title: "QuickPing",
-      description: " This app measures the internet connection speed (download and upload speeds) by sending data packets to a server and calculating the time it takes for the data to travel back and forth. It then displays the results, such as download speed, upload speed, and ping (latency). The app communicates with a remote server to perform the speed tests and send data back for calculation.",
+      description: "This app measures the internet connection speed (download and upload speeds) by sending data packets to a server and calculating the time it takes for the data to travel back and forth. It then displays the results, such as download speed, upload speed, and ping (latency). The app communicates with a remote server to perform the speed tests and send data back for calculation.",
       link: "https://github.com/Selvarajah-Vinushaanth/QuickPing"
+    },
+    {
+      title: "AI-Powered Medical Book Chatbot",
+      description: "Developed an AI chatbot that answers medical questions strictly based on a given medical book using vector embeddings. Processed text into embeddings, stored in a vector database, and implemented semantic search for accurate responses. Ensured reliability by restricting answers to book content, enhancing precision in medical assistance.",
+      link: "https://github.com/Selvarajah-Vinushaanth/medibot"
     }
     
     
