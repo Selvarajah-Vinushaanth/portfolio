@@ -74,7 +74,7 @@ const Projects = () => {
       link: "https://github.com/Selvarajah-Vinushaanth/QuickPing"
     },
     {
-      title: "AI-Powered Medical Book Chatbot",
+      title: "AI-Powered Medical Chatbot",
       description: "Developed an AI chatbot that answers medical questions strictly based on a given medical book using vector embeddings. Processed text into embeddings, stored in a vector database, and implemented semantic search for accurate responses. Ensured reliability by restricting answers to book content, enhancing precision in medical assistance.",
       link: "https://github.com/Selvarajah-Vinushaanth/medibot"
     }
