@@ -77,6 +77,16 @@ const Projects = () => {
       title: "AI-Powered Medical Chatbot",
       description: "Developed an AI chatbot that answers medical questions strictly based on a given medical book using vector embeddings. Processed text into embeddings, stored in a vector database, and implemented semantic search for accurate responses. Ensured reliability by restricting answers to book content, enhancing precision in medical assistance.",
       link: "https://github.com/Selvarajah-Vinushaanth/medibot"
+    },
+    {
+      title: "Interest Hub",
+      description: "The chat interface page enables users to send and receive real-time messages in a sleek and user-friendly design. It includes features such as text, media sharing, and reactions, providing an interactive and dynamic messaging experience",
+      link: "https://github.com/Selvarajah-Vinushaanth/InterestHub"
+    },
+    {
+      title: "Cloud-Sync",
+      description: "This cloud-based file management system allows users to efficiently upload, organize, and manage their files. The interface features a recent folders section and displays files with details like name, type, size, and modification date. Users can select, star, or delete files, and switch between list or icon views, ensuring quick access to frequently used files while keeping everything organized.",
+      link: "https://github.com/Selvarajah-Vinushaanth/cloud-sync"
     }
     
     
