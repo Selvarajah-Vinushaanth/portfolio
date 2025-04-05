@@ -87,6 +87,11 @@ const Projects = () => {
       title: "Cloud-Sync",
       description: "This cloud-based file management system allows users to efficiently upload, organize, and manage their files. The interface features a recent folders section and displays files with details like name, type, size, and modification date. Users can select, star, or delete files, and switch between list or icon views, ensuring quick access to frequently used files while keeping everything organized.",
       link: "https://github.com/Selvarajah-Vinushaanth/cloud-sync"
+    },
+    {
+      title: "AI Vision Assistant Pro",
+      description: "AI Vision Assistant Pro is a real-time object detection tool using OpenCV. It tracks selected objects like people, cars, and bicycles through a live camera feed, estimates their distance, and alerts users if they come too close. With features like customizable object tracking, distance estimation, adjustable settings, detection logs, dark mode, and full-screen support, it's ideal for surveillance and safety applications.",
+      link: "https://github.com/Selvarajah-Vinushaanth/AI-Vision-Assistant-Pro"
     }
     
     
