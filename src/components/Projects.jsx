@@ -92,6 +92,11 @@ const Projects = () => {
       title: "AI Vision Assistant Pro",
       description: "AI Vision Assistant Pro is a real-time object detection tool using OpenCV. It tracks selected objects like people, cars, and bicycles through a live camera feed, estimates their distance, and alerts users if they come too close. With features like customizable object tracking, distance estimation, adjustable settings, detection logs, dark mode, and full-screen support, it's ideal for surveillance and safety applications.",
       link: "https://github.com/Selvarajah-Vinushaanth/AI-Vision-Assistant-Pro"
+    },
+    {
+      title: "MailFlow-Automator",
+      description: "MailFlow Automator is a simple and user-friendly email sending interface built with a front-end form, connected to an automated workflow using n8n. It allows users to quickly compose emails, add optional attachments, and send them seamlessly through automation without manual backend handling.",
+      link: "https://github.com/Selvarajah-Vinushaanth/MailFlow-Automator"
     }
     
     
