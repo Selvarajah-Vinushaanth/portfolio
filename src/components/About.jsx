@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/document/cv template deputy.pdf';
+import resume from '../assets/document/Resume.pdf';
 
 import '../styles/About.css';
 
