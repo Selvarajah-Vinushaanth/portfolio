@@ -97,6 +97,11 @@ const Projects = () => {
       title: "MailFlow-Automator",
       description: "MailFlow Automator is a simple and user-friendly email sending interface built with a front-end form, connected to an automated workflow using n8n. It allows users to quickly compose emails, add optional attachments, and send them seamlessly through automation without manual backend handling.",
       link: "https://github.com/Selvarajah-Vinushaanth/MailFlow-Automator"
+    },
+    {
+      title: "Credit Score Predictor",
+      description: "This project is a machine learning web app that predicts a user's credit score category — Good, Standard, or Bad — based on financial and behavioral inputs. Built with Python, Flask, and Scikit-learn, it uses a trained Random Forest model with proper preprocessing to deliver predictions and confidence scores via a simple web interface.",
+      link: "https://github.com/Selvarajah-Vinushaanth/Credit_Score_Predcitor"
     }
     
     
