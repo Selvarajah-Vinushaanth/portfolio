@@ -102,6 +102,11 @@ const Projects = () => {
       title: "Credit Score Predictor",
       description: "This project is a machine learning web app that predicts a user's credit score category — Good, Standard, or Bad — based on financial and behavioral inputs. Built with Python, Flask, and Scikit-learn, it uses a trained Random Forest model with proper preprocessing to deliver predictions and confidence scores via a simple web interface.",
       link: "https://github.com/Selvarajah-Vinushaanth/Credit_Score_Predcitor"
+    },
+    {
+      title: "Semantic Image Search",
+      description: "Semantic Image Search is a web app that lets users upload images and search for them by typing natural language descriptions. It uses OpenAI’s CLIP model to understand the content of images and find matches based on text queries — no manual tagging needed. The app features a React frontend and a FastAPI backend with efficient vector search powered by FAISS.",
+      link: "https://github.com/Selvarajah-Vinushaanth/Semantic-Image-Search/"
     }
     
     
