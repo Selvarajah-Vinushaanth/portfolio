@@ -107,6 +107,11 @@ const Projects = () => {
       title: "Semantic Image Search",
       description: "Semantic Image Search is a web app that lets users upload images and search for them by typing natural language descriptions. It uses OpenAI’s CLIP model to understand the content of images and find matches based on text queries — no manual tagging needed. The app features a React frontend and a FastAPI backend with efficient vector search powered by FAISS.",
       link: "https://github.com/Selvarajah-Vinushaanth/Semantic-Image-Search/"
+    },
+    {
+      title: "SecureVision Pro",
+      description: "A modern, web-based CCTV monitoring solution built with FastAPI, OpenCV, and JavaScript, SecureVision Pro delivers real-time low-latency streaming, intelligent motion detection with auto-recording, and a fully responsive, mobile-ready interface. It includes robust camera management and a stats dashboard for total surveillance control.",
+      link: "https://github.com/Selvarajah-Vinushaanth/SecureVision"
     }
     
     
