@@ -112,6 +112,11 @@ const Projects = () => {
       title: "SecureVision Pro",
       description: "A modern, web-based CCTV monitoring solution built with FastAPI, OpenCV, and JavaScript, SecureVision Pro delivers real-time low-latency streaming, intelligent motion detection with auto-recording, and a fully responsive, mobile-ready interface. It includes robust camera management and a stats dashboard for total surveillance control.",
       link: "https://github.com/Selvarajah-Vinushaanth/SecureVision"
+    },
+    {
+      title: "Landmark Location Finder",
+      description: "Landmark Location Finder is an AI-powered web app that identifies landmarks from images, showing their names, locations, and history. Built with Flask and integrated with Google Vision and Gemini APIs, it offers real-time recognition and a clean, mobile-friendly interface.",
+      link: "https://github.com/Selvarajah-Vinushaanth/Location-Finder/"
     }
     
     
