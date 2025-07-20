@@ -117,6 +117,11 @@ const Projects = () => {
       title: "Landmark Location Finder",
       description: "Landmark Location Finder is an AI-powered web app that identifies landmarks from images, showing their names, locations, and history. Built with Flask and integrated with Google Vision and Gemini APIs, it offers real-time recognition and a clean, mobile-friendly interface.",
       link: "https://github.com/Selvarajah-Vinushaanth/Location-Finder/"
+    },
+    {
+      title: "EMNIST Character Recognition Web App",
+      description: "An interactive web application that uses deep learning to identify handwritten letters and digits. Users can draw characters on a canvas or upload images, and the system predicts the character using a trained CNN model on the EMNIST dataset. It features a clean UI with dark/light mode toggle and real-time recognition functionality.",
+      link: "https://github.com/Selvarajah-Vinushaanth/EMNIST-Character-Recognition-Web-App"
     }
     
     
