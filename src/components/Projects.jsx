@@ -122,6 +122,16 @@ const Projects = () => {
       title: "EMNIST Character Recognition Web App",
       description: "An interactive web application that uses deep learning to identify handwritten letters and digits. Users can draw characters on a canvas or upload images, and the system predicts the character using a trained CNN model on the EMNIST dataset. It features a clean UI with dark/light mode toggle and real-time recognition functionality.",
       link: "https://github.com/Selvarajah-Vinushaanth/EMNIST-Character-Recognition-Web-App"
+    },
+    {
+      title: "AutoFlow Assistant (Mini Version)",
+      description: "This intelligent automation workflow allows users to analyze data from Google Sheets, send personalized emails, and summarize calendar events efficiently. By integrating these tools, it streamlines data-driven communication and scheduling, helping users save time and stay organized effortlessly.",
+      link: "https://drive.google.com/file/d/1CK_rZCZU1vHjky53AKUBV-ioAths-sp2/view"
+    },
+    {
+      title: "Sri Lanka - Conductor Portal",
+      description: "This is a mobile/web application designed for bus conductors in Sri Lanka to issue tickets easily and quickly.The app allows conductors to select the route, enter the number of passengers, and instantly generate a digital ticket. It also records all daily trips, income, and passenger details automatically, so conductors don’t need to write anything by hand.",
+      link: "https://github.com/Selvarajah-Vinushaanth/bus-ticket-system-frontend"
     }
     
     
