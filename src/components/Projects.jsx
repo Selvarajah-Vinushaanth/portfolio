@@ -129,6 +129,11 @@ const Projects = () => {
       link: "https://drive.google.com/file/d/1CK_rZCZU1vHjky53AKUBV-ioAths-sp2/view"
     },
     {
+      title: "VerseMind",
+      description: "The Tamil Songwriting Assistant is a comprehensive platform that leverages cutting-edge AI to help users create, analyze, and enhance Tamil literary content. Whether you're a professional songwriter, poet, or enthusiast, this tool provides intelligent assistance for various aspects of Tamil creative writing.",
+      link: "https://github.com/aaivu/tamil-songwriting-assistant.git"
+    },
+    {
       title: "Sri Lanka - Conductor Portal",
       description: "This is a mobile/web application designed for bus conductors in Sri Lanka to issue tickets easily and quickly.The app allows conductors to select the route, enter the number of passengers, and instantly generate a digital ticket. It also records all daily trips, income, and passenger details automatically, so conductors don’t need to write anything by hand.",
       link: "https://github.com/Selvarajah-Vinushaanth/bus-ticket-system-frontend"
