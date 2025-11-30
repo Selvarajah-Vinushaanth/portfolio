@@ -137,6 +137,11 @@ const Projects = () => {
       title: "Sri Lanka - Conductor Portal",
       description: "This is a mobile/web application designed for bus conductors in Sri Lanka to issue tickets easily and quickly.The app allows conductors to select the route, enter the number of passengers, and instantly generate a digital ticket. It also records all daily trips, income, and passenger details automatically, so conductors don’t need to write anything by hand.",
       link: "https://github.com/Selvarajah-Vinushaanth/bus-ticket-system-frontend"
+    },
+    {
+      title: "YOLOvFeed - Intelligent Multi-Camera Surveillance System",
+      description: "YOLOvFeed is a real-time object detection and monitoring platform that turns IP cameras into smart surveillance systems using YOLO technology. It offers live streaming with accurate object recognition, customizable confidence levels, and a red/green bounding box system for prioritized tracking. The platform provides analytics, a real-time dashboard, AI chat assistance, and cloud storage through Firebase. Built with React TypeScript, FastAPI, and WebSockets, it delivers a modern and powerful surveillance experience.",
+      link: "https://github.com/Selvarajah-Vinushaanth/bus-ticket-system-frontend"
     }
     
     
