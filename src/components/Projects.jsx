@@ -142,6 +142,11 @@ const Projects = () => {
       title: "YOLOvFeed - Intelligent Multi-Camera Surveillance System",
       description: "YOLOvFeed is a real-time object detection and monitoring platform that turns IP cameras into smart surveillance systems using YOLO technology. It offers live streaming with accurate object recognition, customizable confidence levels, and a red/green bounding box system for prioritized tracking. The platform provides analytics, a real-time dashboard, AI chat assistance, and cloud storage through Firebase. Built with React TypeScript, FastAPI, and WebSockets, it delivers a modern and powerful surveillance experience.",
       link: "https://github.com/Selvarajah-Vinushaanth/YolovFeed"
+    },
+    {
+      title: "OmniControl Dashboard - Remote System Management & AI-Powered Monitoring",
+      description: "built a React-based web dashboard for remote system administration, offering real-time monitoring of CPU, memory, network, and processes. It features an interactive terminal, live screen previews, file management, AI-driven system insights, multi-device control, and monitoring of logs and environment variables.",
+      link: "https://github.com/Selvarajah-Vinushaanth/omni-system.git"
     }
     
     
