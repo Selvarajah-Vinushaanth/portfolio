@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';  // Importing icons
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';  // Importing icons
 import '../styles/Footer.css';
 
 const Footer = () => {
