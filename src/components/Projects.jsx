@@ -146,7 +146,12 @@ const Projects = () => {
     {
       title: "OmniControl Dashboard - Remote System Management & AI-Powered Monitoring",
       description: "built a React-based web dashboard for remote system administration, offering real-time monitoring of CPU, memory, network, and processes. It features an interactive terminal, live screen previews, file management, AI-driven system insights, multi-device control, and monitoring of logs and environment variables.",
-      link: "https://github.com/Selvarajah-Vinushaanth/omni-system.git"
+      link: "https://github.com/Selvarajah-Vinushaanth/omni-system"
+    },
+    {
+      title: "Talksy-Real time communication app",
+      description: "Talksy is a real-time communication app that supports one-to-one and group chats, along with audio and video calling. Users can do direct messaging, group conversations, single and group audio calls, and single and group video calls — all in one platform. Talksy is built to make communication simple, fast, and seamless.",
+      link: "https://github.com/Selvarajah-Vinushaanth/Talksy-frontend"
     }
     
     
