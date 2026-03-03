@@ -156,7 +156,12 @@ const Projects = () => {
     {
       title: "🚀 Interview Prep – AI Powered Mock Interview Platform",
       description: "Interview Prep is an AI-powered mock interview platform where users can practice HR, technical, system design, and behavioral interviews by selecting their job role, target company type, and experience level. The AI conducts interviews, evaluates responses, and provides an overall score, strengths, improvement areas, and question-by-question feedback, while a simple dashboard helps users track progress and past sessions.",
-      link: "https://github.com/Selvarajah-Vinushaanth/interview-ace-frontend.git"
+      link: "https://github.com/Selvarajah-Vinushaanth/interview-ace-frontend"
+    },
+    {
+      title: "🚀 LegalEase – AI Powered Real Estate Document Platform",
+      description: "Built an AI-driven solution for automated real estate document generation using multi-agent workflows and Google Gemini AI with structured JSON outputs. Added geo-aware compliance for U.S. states and a credit-based system with API tracking for scalable, controlled access.",
+      link: "https://github.com/Selvarajah-Vinushaanth/legalease-frontend"
     },
 
     
